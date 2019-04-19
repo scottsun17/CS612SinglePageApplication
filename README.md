@@ -10,7 +10,7 @@ Overview of the app<br />
 
 ## How to run the app?
 1. Download the app and navigate to the file location in the terminal
-2. Fire 'npm start'
+2. Fire `npm start`
 3. App is launched and have fun
 
 
