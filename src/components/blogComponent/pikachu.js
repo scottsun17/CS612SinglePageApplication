@@ -6,7 +6,7 @@ class Pikachu extends Component {
       <div className="main">
         <div>
         <h1>
-        	Game of Thrones Season 8 is here!
+        	Wait what? Pokémon: Detective Pikachu?
         </h1>
            <h6>
         Date: 4/12/2019
