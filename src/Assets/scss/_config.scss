@@ -1,0 +1,63 @@
+/*
+var
+ */
+ $black: #010000;
+ $white: #ffffff;
+ $lightGrey: #e6e6e6;
+ $darkgrey: #333;
+ $red: #ff1755;
+ $purple: #800080;
+ $beige: #f5f5dc;
+
+  /*
+ Mixins
+ */
+
+ @mixin translateY($e) {
+ 	-webkit-transform: translateY($e);
+ 	   -moz-transform: translateY($e);
+ 	   	    transform: translateY($e);
+ }
+
+ @mixin transition($e) {
+ 	-webkit-transition: translateY($e);
+ 	   -moz-transition: translateY($e);
+ 	   	    transition: translateY($e);
+ }
+
+ /* Fonts -
+
+ regular 400
+ regular 400 Italic
+ bold 700
+ bold 700 Italic
+
+ */
+
+ body {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 18px;
+ 	color: $black;
+ 	font-weight: 400;
+ 	font-style: normal;
+ }
+
+ a{
+ 	text-decoration:none;
+ 	 @include transition(.4s ease-in-out);
+ 	 cursor: pointer; 
+
+ 	 &:hover{
+ 	 	color: $red;
+ 	 	@include transition(.4s ease-in-out);
+ 	 }
+ }
+
+
+ .container-fluid{
+ 	line-height: 24px;
+ }
+
+
+
+

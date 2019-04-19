@@ -1,0 +1,137 @@
+@import "_config.scss";
+
+html, body { 
+    height: 100%;
+    background-color: $beige;
+}
+
+header{
+	position: relative;
+	display: block;
+	width: 100%;
+	background: $black;
+	color: $white;
+	height: 90px;
+
+	.logo{
+		position: absolute;
+		top: 50%; left: 30px;
+		@include translateY(-50%);
+	}
+	.logoText{
+		position: absolute;
+		top: 50%; left: 120px;
+		@include translateY(-50%);
+	}
+
+	nav,
+	nav ul,
+	nav ul li {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav{
+		position: absolute;
+		top: 50%; right: 15px;
+		@include translateY(-50%);
+
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 20px;
+
+			&.last{
+				margin: 0;
+			}
+
+			a{
+				font-size: 19px;
+				line-height: normal;
+				color: $white;
+			}
+		}
+	}
+
+}
+
+div{	
+	.main{
+		max-width: 65%;
+		padding: 2%;
+		float: left;
+		border-style:solid;
+	}
+	.sideMenu{
+		max-width: 35%;
+		padding: 3%;
+		float:right;
+	.news{
+		border-style:solid;
+		margin: 3px;
+		max-width: 95%;
+	}
+
+	.Site {
+	    display: flex;
+	    flex-direction: column;
+	    min-height: 100vh;
+	    margin-bottom:60px;
+	}
+
+	.Site-content {
+	    flex: 1 0 auto;
+	    padding: var(--space) var(--space) 0;
+	    width: 100%;
+	    margin-bottom:60px;
+	}
+	.blogColumn{
+		flex: 50%;
+		padding: 10px;
+		height: 250px;
+		border-style:solid;
+	}
+	.blogRow{
+		display: flex;
+		margin-bottom: 30px;
+	}
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  width: 100%;
+  background: $black;
+  color: $white;
+  height: 120px;
+
+  .logo{
+  		position: relative;
+		top: 50%;
+		@include translateY(-50%);
+		font-size:22px;
+	}
+}
+.blogImage{
+	width: 370px;
+	position: relative;
+	left: 25%;
+	margin-bottom: 15px;
+}
+.summaryImage{
+	width: 370px;
+
+}
+.blogPostSummary{
+	
+}
+.logoSize{
+	width:70px;
+	height: 70px;
+}
