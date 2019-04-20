@@ -9,8 +9,9 @@ Overview of the app<br />
 
 
 ## How to run the app?
-1. Download the app and navigate to the file location in the terminal
+1. Download the app and navigate to the file location in the terminal (ex. cd C:\Users\..\SinglePageApplication)
 2. Fire `npm start`
-3. App is launched and have fun
+3. Open http://localhost:3000 to view it in the browser
+4. App is launched and have fun
 
 
