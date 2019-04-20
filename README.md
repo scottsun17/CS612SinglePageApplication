@@ -2,7 +2,7 @@
 
 ## Single Page Application built with React, Sass, Gulp and Node.js
 
-The app display blogs and dynamically pull news update from Google News (implemented using Google News API). <br />
+The app displaies blogs and dynamically pulls news update from Google News (Google News API). <br />
 
 Overview of the app<br />
 ![alt text](https://raw.githubusercontent.com/scottsun17/CS612SinglePageApplication/master/src/components/pages/images/overview.PNG)
